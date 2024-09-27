@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::selection {
+  color: #eef4fc;
+  background: hsl(234, 14%, 30%);
+}
+
+body {
+  font-family: "Space Grotesk", Arial sans-serif;
+  background-color: hsl(234, 14%, 10%);
+  color: #eef4fc;
+}
+
+main {
+  max-width: 1300px;
+  margin: 30px auto;
+  display: flex;
+}
+main > .left {
+  flex: 1;
+}
+main > .right {
+  border-left: 1px solid hsl(234, 14%, 40%);
+  width: 350px;
+}
+main > div > .container {
+  padding: 20px;
+}
+
+main > .right h2 {
+  margin-bottom: 20px;
+}
+main > .right ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main > .right ul a {
+  text-decoration: none;
+}
+main > .right ul li {
+  padding: 6px 10px;
+  background-color: hsl(234, 14%, 14%);
+  border-radius: 8px;
+  color: #9498A0;
+}
+main > .right ul li:hover {
+  background-color: hsl(234, 14%, 20%);
+  cursor: pointer;
+  color: #D5DAE2;
+}
+
+main > .left h1, main > .left h2, main > .left h3, main > .left h4, main > .left h5, main > .left h6 {
+  margin-bottom: 10px;
+  color: #EEF4FC;
+}
+main > .left h1 {
+  text-align: center;
+  margin-bottom: 26px;
+}
+main > .left p {
+  margin-bottom: 16px;
+}
+main > .left a {
+  color: #ff8e47;
+}/*# sourceMappingURL=style.css.map */
