@@ -85,5 +85,19 @@ main > .left{
 
     a{
         color: $brand-primary;
+
+        &:hover{
+            color: darken($brand-primary, 10%);
+        }
+    }
+
+    code,pre{
+        background-color: $background-variant-1;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    blockquote{
+
     }
 }

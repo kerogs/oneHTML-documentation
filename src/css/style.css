@@ -68,4 +68,12 @@ main > .left p {
 }
 main > .left a {
   color: #ff8e47;
+}
+main > .left a:hover {
+  color: #ff6f14;
+}
+main > .left code, main > .left pre {
+  background-color: hsl(234, 14%, 14%);
+  padding: 10px;
+  border-radius: 8px;
 }/*# sourceMappingURL=style.css.map */
